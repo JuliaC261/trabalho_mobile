@@ -25,6 +25,19 @@ export default function TabLayout() {
           default: {},
         }),
       }}>
+        <Tabs.Screen
+        name="about"
+        options={{
+          title: 'Sobre',
+          tabBarIcon: ({ color, focused }) => (
+            <IconSymbol 
+              size={focused ? 32 : 28} 
+              name={focused ? "plus.circle.fill" : "plus.circle"} 
+              color={color} 
+            />
+          ),
+        }}
+      />
       <Tabs.Screen
         name="index"
         options={{
@@ -42,19 +55,6 @@ export default function TabLayout() {
         name="explore"
         options={{
           title: 'Nova Tarefa',
-          tabBarIcon: ({ color, focused }) => (
-            <IconSymbol 
-              size={focused ? 32 : 28} 
-              name={focused ? "plus.circle.fill" : "plus.circle"} 
-              color={color} 
-            />
-          ),
-        }}
-      />
-      <Tabs.Screen
-        name="about"
-        options={{
-          title: 'Sobre',
           tabBarIcon: ({ color, focused }) => (
             <IconSymbol 
               size={focused ? 32 : 28} 

@@ -74,11 +74,11 @@ const styles = StyleSheet.create({
   },
   scrollView: {
     flex: 1,
-    backgroundColor: '#ffffff',
+    backgroundColor: '#111111ff',
   },
   container: {
     flex: 1,
-    backgroundColor: '#5c5c5cff',
+    backgroundColor: '#111111ff',
     paddingTop: 60,
   },
   header: {
