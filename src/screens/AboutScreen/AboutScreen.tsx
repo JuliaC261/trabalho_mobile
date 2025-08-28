@@ -6,7 +6,7 @@ export const AboutScreen: React.FC = () => {
   return (
 
         <PageTemplate
-          title="Sobre teste"
+          title="Sobre"
         >
         </PageTemplate>
   );
