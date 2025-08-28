@@ -1,12 +1,13 @@
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
+import { PageTemplate } from '@/src/templates';
 import React from 'react';
-import { StyleSheet } from 'react-native';
 
 export const AboutScreen: React.FC = () => {
 
   return (
-    
-    <h1>oi</h1>
 
-);
+        <PageTemplate
+          title="Sobre teste"
+        >
+        </PageTemplate>
+  );
+};
